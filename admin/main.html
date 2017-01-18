@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amrita Spandanam</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<style>
+    .bordered {
+        width: 400px;
+        height: 140px;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    .newBorder{
+        top:50px;
+        width: 600px;
+        height: 500px;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    .innerBorder{
+        top:50px;
+        width: 270px;
+        height: 240px;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    .secondBorder{
+        top:50px;
+        width: 100px;
+        height: 240px;
+        padding-left: 450px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+</style>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Amrita Spandanam</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Hi Rakesh</a></li>
+            <li><a href="../"><span class="glyphicon glyphicon-log-out"></span> Signout</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    <h3 align="center">Amrita Spandanam Web Framework</h3><br><br>
+    <div class="row">
+
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked" style="overflow: scroll;height:500px;">
+                <li class="active"><a href="#">Patient List</a></li>
+                <br>
+                <input type="text" class="form-control" placeholder="Search">
+                <li><a href="#">MR1.Arjun Raveendran</a></li>
+                <li><a href="#">MR2.Aditya Menon</a></li>
+                <li><a href="#">MR3.Rakesh Sharma</a></li>
+                <li><a href="#">MR4.Rohan Kumar</a></li>
+                <li><a href="#">MR5.Surya Agarwal</a></li>
+                <li><a href="#">MR6.Tejus S</a></li>
+                <li><a href="#">MR7.Sachin Ramesh</a></li>
+                <li><a href="#">MR8.Hari Shankar</a></li>
+                <li><a href="#">MR9.Vishnu Satheeshan</a></li>
+                <li><a href="#">MR10.Surya Agarwal</a></li>
+                <li><a href="#">MR11Tejus S</a></li>
+                <li><a href="#">MR12Sachin Ramesh</a></li>
+                <li><a href="#">MR13Hari Shankar</a></li>
+                <li><a href="#">MR14Vishnu Satheeshan</a></li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-3">
+
+
+            <button ><strong>Patient Data</strong> </button><br><br>
+
+                <div class="bordered">
+
+                    <strong>Medical Record no:</strong>MR1<br>
+                    <strong>Name:</strong>Arjun Raveendran
+                    <br>
+                    <strong>Age:</strong>27<br>
+                    <strong>Gender:</strong>M<br>
+                    <strong>Address:</strong>Kanothumchal House, Kollam.
+                </div>
+
+                <br><br>
+            <ul class="nav nav-pills">
+
+                <li class="active"><a data-toggle="pill" href="#home">Real time</a></li>
+                <li><a data-toggle="pill" href="#menu1">24 hour</a></li>
+                <li><a data-toggle="pill" href="#menu2">All time</a></li>
+
+            </ul><br><br>
+
+            <div class="tab-content">
+
+                <div id="home" class="tab-pane fade in active">
+
+
+                        <div class="newBorder">
+                        <br><br><br><br>
+                    <img src="images/ecg.jpg" style="width: 50%;top: 10px;" >
+
+                                <img STYLE="position:absolute; TOP:400px; LEFT:400px; WIDTH:200px; HEIGHT:100px" src="images/bp.jpg">
+
+
+                            <img src="images/ecg.jpg" style="width: 50%;top: 10px;" >
+
+
+                            <img STYLE="position:absolute; TOP:560px; LEFT:400px; WIDTH:200px; HEIGHT:100px" src="images/bp.jpg">
+
+
+
+                        </div>
+                </div>
+
+                    <div id="menu1" class="tab-pane fade">
+                    <h3>24 hour</h3>
+                    <p>Some content in menu 1.</p>
+                    </div>
+
+                    <div id="menu2" class="tab-pane fade">
+                    <h3 style="top: auto;">All time</h3>
+                    <p>Some content in menu 2.</p>
+                </div>
+
+
+        </div>
+
+
+        <div class="clearfix visible-lg"></div>
+    </div>
+</div>
+
+</body>
+</html>
